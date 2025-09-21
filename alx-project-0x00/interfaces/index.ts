@@ -3,5 +3,5 @@ export interface PillProps {
 }
 export interface ButtonProps {
   title: string;
-  className?: string; // optional: lets us pass custom styles
+  styles: string; // optional: lets us pass custom styles
 }

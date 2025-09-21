@@ -11,16 +11,17 @@ const Landing: React.FC = () => {
 
         {/* Size variations */}
         <div className="flex gap-4">
-          <Button title="Small" className="text-sm px-2 py-1" />
-          <Button title="Medium" className="text-base px-4 py-2" />
-          <Button title="Large" className="text-lg px-6 py-3" />
+          <Button title="Small" styles="text-sm px-2 py-1" />
+          <Button title="Medium" styles="text-base px-4 py-2" />
+          <Button title="Large" styles="text-lg px-6 py-3" />
         </div>
 
         {/* Shape variations */}
         <div className="flex gap-4">
-          <Button title="Rounded-sm" className="rounded-sm" />
-          <Button title="Rounded-md" className="rounded-md" />
-          <Button title="Rounded-full" className="rounded-full" />
+          <Button title="Rounded-sm" styles="rounded-sm" />
+          <Button title="Rounded-md" styles="rounded-md" />
+          <Button title="Rounded-full" styles="rounded-full" />
+          <Button title="Rounded-lg" styles="rounded-lg" />
         </div>
       </div>
     </div>
